@@ -2,15 +2,8 @@
 # Graphics Reduction Pack for FiveM
 Package created to improve FiveM performance on my computer, check settings in project readme
 
-
-## Features
-- Temas dark e light
-- Preview em tempo real
-- Modo tela cheia
-- Multiplataforma
-
-
 ## Roadmap
+Graphics Reduction Package - V0.5 (30/03/2022)
 **v0.1 - Alpha**
 ```diff
     + Decreased range of police sirens reflex in 20%;
@@ -40,20 +33,26 @@ Package created to improve FiveM performance on my computer, check settings in p
     + Reduced in 10% exhaust smoke from the vehicle when stationary (if you want to return to the original, delete the files "vehicles.meta");
     + Removed unnecessary lens flare effects (if you want to return to the original, delete the files "lensflare_f.xml", "lensflare_m.xml" and "lensflare_t.xml");
 ```
+**v0.6 - Beta**
+```diff
+    + Re-added bullet marks on walls
+    - Removed headshot effects (this was never for a roleplay mod, sorry Juu);
+    + Added blood variations and shot marks on solid surfaces to increase performance (by CarnathSmecher);
+    + Added script for cleaning FiveM cache and Windows temporary files;
+    + Added 5% FOG in rainy, stormy and foggy weather;
+```
+**v0.7 - Beta**
+```diff
+    + Adjusted the intensity of rain, storm and fog weather;
+    + Adjusted the intensity of ambient lights by 15% during the night period;
+    + Perfect weather transition cycle to ensure best compatibility;
+    - Removed 2% FOG in rainy, stormy and foggy weather;
+```
 ## Screenshots
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ## Installation
 ### **Basic Installation**
-- Extract the pack files to a folder on your desktop;
-- Completely clear your FiveM cache (script attached);
-- Make a complete backup of your FiveM's `citizen` folder in the `%LocalAppData%\FiveM\FiveM.app\` folder;
-- Make a backup of the `fivem.cfg` file in the `%AppData%\FRoaming\CitizenFX\` folder;
-- Make a backup of the `gta5_settings.xml` file in the `%AppData%\FRoaming\CitizenFX\` folder;
-- Open the `gta5_settings.xml` file and write down in a notepad the value of line #72 - `VideoCardDescription`;
-- Open the `%AppData%\FRoaming\CitizenFX\` folder and replace the `gta5_settings.xml` file with the modified one;
-- Edit the `gta5_settings.xml` file with the information saved in step #45;
-- Open the `%AppData%\FRoaming\CitizenFX\` folder and replace the `fivem.cfg` file with the modified one;
 - Completely delete the original `citizen` folder from your FiveM and move the present one in the package;
 - Move the `a_CATUSSE_Package_VisualOptimisation_NG.rpf` file to the `%LocalAppData%\FiveM\FiveM.app\mods\` folder
 
@@ -69,9 +68,9 @@ Package created to improve FiveM performance on my computer, check settings in p
 Todas as modificações presentes nesse pacote foram retirados da internet (principalmente de sites estrangeiros) e editados por mim durante longas semanas; caso decida compartilhar em outro site, dê os créditos e informe o link original deste repositório.
 
 ```diff
-+ Rockstar Games, Inc: Do I need to say anything?
-+ LMF' Tah FiveM: Package Visual Optimisation
-+ Nevek: Editor de Registro do Windows
+    + Rockstar Games, Inc: Do I need to say anything?
+    + LMF' Tah FiveM: Package Visual Optimisation
+    + Nevek: Editor de Registro do Windows
 ```
 ## Suport
 Any problem with crash or loss of FPS, contact me by Ticket on the channel's [Discord](https://discord.gg/qCF9AbFDq5).
